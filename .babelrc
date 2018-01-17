@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "es2015",
+    "stage-0",
+  ],
+  "plugins": [
+    ["module-resolver", {
+      "alias": {
+        "foo": "./src/test1/foo",
+      },
+      "extensions": ["index.js", ".js", ".jsx"]
+    }]
+  ]
+}
