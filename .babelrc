@@ -10,5 +10,15 @@
       },
       "extensions": ["index.js", ".js", ".jsx"]
     }]
-  ]
+  ],
+  "env": {
+    "production": {
+      "presets": [
+        "babili"
+      ],
+      "plugins": [
+        "transform-runtime"
+      ]
+    }
+  }
 }
